@@ -1,0 +1,18 @@
+name = Location Map Mod by GM
+description = Display one geographical location via Google Maps. - Modded by Gruppo Musa to support GMaps API Key
+core = 7.x
+
+files[] = locationmapgm.install
+files[] = locationmapgm.module
+files[] = potx-cli.php
+files[] = potx.inc
+files[] = tests/locationmapgm.test
+
+configure = admin/config/content/locationmapgm
+
+; Information added by Drupal.org packaging script on 2022-08-13
+version = "7.x-1.0"
+core = "7.x"
+project = "locationmapgm"
+datestamp = "1488545391"
+
